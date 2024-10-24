@@ -1,9 +1,12 @@
+//Декларативный
 import logo from './logo.svg';
 import './App.css';
 
+//Императивный
 export const App = () => {
 	const currentYear = new Date().getFullYear();
 	return (
+		//Декларативный
 		<div className="App">
 			<header className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
